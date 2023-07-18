@@ -1,0 +1,8 @@
+C:\Users\Nata\Documents\ConsoleAppFigure\bin\Debug\ConsoleAppFigure.exe.config
+C:\Users\Nata\Documents\ConsoleAppFigure\bin\Debug\ConsoleAppFigure.exe
+C:\Users\Nata\Documents\ConsoleAppFigure\bin\Debug\ConsoleAppFigure.pdb
+C:\Users\Nata\Documents\ConsoleAppFigure\obj\Debug\ConsoleAppFigure.csproj.AssemblyReference.cache
+C:\Users\Nata\Documents\ConsoleAppFigure\obj\Debug\ConsoleAppFigure.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nata\Documents\ConsoleAppFigure\obj\Debug\ConsoleAppFigure.csproj.CoreCompileInputs.cache
+C:\Users\Nata\Documents\ConsoleAppFigure\obj\Debug\ConsoleAppFigure.exe
+C:\Users\Nata\Documents\ConsoleAppFigure\obj\Debug\ConsoleAppFigure.pdb
