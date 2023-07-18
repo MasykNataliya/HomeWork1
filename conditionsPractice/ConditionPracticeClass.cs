@@ -118,14 +118,14 @@ namespace conditionsPractice
         { int QuantityOfIndexes = binaryNumber.Length;
             
             int result=0;
-            for (int i = QuantityOfIndexes; i >=0; i--) 
+            for (int i = QuantityOfIndexes - 1; i >= 0; i--)
             {
-                char IndexOfSymbol = binaryNumber[i--];
+                int IndexOfSymbol = Convert.ToInt32(binaryNumber[i--]);
                 double DoubleIndex = Convert.ToDouble(IndexOfSymbol);
                 double inPow;
-                if (DoubleIndex > 0)
-                { inPow = Math.Pow(2, Convert.ToDouble(QuantityOfIndexes - i)); }
-                else inPow =0.0;
+                if (IndexOfSymbol == 1)
+                { inPow = Math.Pow(2, Convert.ToDouble(QuantityOfIndexes - i - 1)); }
+                else {inPow = 0.0; }
                 result  += Convert.ToInt32(inPow);
               
             }
