@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u/Xs0GSIScXScyUG2/PLjei6yWkbt+ybiFN3SzEd6oVo1ph6SQYkdZ+B73H1d/KVZlK5HbMhakhuGJLrLfo/FA==",
+  "dgSpecHash": "lp/Y2MFki4Ot0GmaPkRtCsOE6k1dbT/vSWtackP3T94pHyP0M4PLT0UJe8Y7wfIqDo4hAwVldcKOkvDWQ+rKqA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nata\\Documents\\03 conditionsPracticeLesson\\conditionsPracticeEmpty\\conditionsPracticeTests\\conditionsPracticeTests.csproj",
+  "projectFilePath": "C:\\Users\\Nata\\Documents\\HomeWork1Git\\HomeWork1\\conditionsPracticeTests\\conditionsPracticeTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nata\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Nata\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

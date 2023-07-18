@@ -14,3 +14,11 @@ C:\Users\Nata\Documents\03 conditionsPracticeLesson\conditionsPracticeEmpty\cond
 C:\Users\Nata\Documents\03 conditionsPracticeLesson\conditionsPracticeEmpty\conditionsPractice\bin\Debug\conditionsPractice.exe.config
 C:\Users\Nata\Documents\03 conditionsPracticeLesson\conditionsPracticeEmpty\conditionsPractice\bin\Debug\conditionsPractice.exe
 C:\Users\Nata\Documents\03 conditionsPracticeLesson\conditionsPracticeEmpty\conditionsPractice\bin\Debug\conditionsPractice.pdb
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\bin\Debug\conditionsPractice.exe.config
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\bin\Debug\conditionsPractice.exe
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\bin\Debug\conditionsPractice.pdb
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\obj\Debug\conditionsPractice.csproj.AssemblyReference.cache
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\obj\Debug\conditionsPractice.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\obj\Debug\conditionsPractice.csproj.CoreCompileInputs.cache
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\obj\Debug\conditionsPractice.exe
+C:\Users\Nata\Documents\HomeWork1Git\HomeWork1\conditionsPractice\obj\Debug\conditionsPractice.pdb

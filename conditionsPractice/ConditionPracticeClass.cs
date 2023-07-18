@@ -20,8 +20,10 @@ namespace conditionsPractice
         /* TODO: Receives a string as input and returns true if the string contains only unique characters, false otherwise. */
         public static bool HasUniqueCharacters(string input)
         {
-            string dist = (string)input.ToArray().Distinct();
-            if (dist == input)
+            int New = input.Distinct().Count();
+            int New1= input.Length;
+            if ( New1==New)
+
             {
                 return true;
             }
@@ -83,8 +85,9 @@ namespace conditionsPractice
 
         /* TODO: Receives a string as input and returns true if the string is a palindrome, false otherwise. */
         public static bool IsPalindrome(string input)
-        { 
-        if (input == input.Reverse().ToString()) return true;
+        {
+            string input2 = new string(input.Reverse().ToArray());
+        if (input == input2) return true;
         else return false;
         }
 
@@ -113,16 +116,16 @@ namespace conditionsPractice
         public static int BinaryToDecimal(string binaryNumber)
 
         { int QuantityOfIndexes = binaryNumber.Length;
-            string revBinaryNumber = binaryNumber.Reverse().ToString();
+            string revBinaryNumber = new string (binaryNumber.Reverse().ToArray());
             int result=0;
-            for (int i = 0; i <= QuantityOfIndexes; i++) 
+            for (int i = QuantityOfIndexes; i >=0; i--) 
             { double DoubleIndex = Double.Parse(revBinaryNumber.Substring(QuantityOfIndexes - i, 1));
                 double inPow;
                 if (DoubleIndex > 0)
                 { inPow = Math.Pow(2, Convert.ToDouble(QuantityOfIndexes - i)); }
                 else inPow =0.0;
-                inPow = +inPow;
-               result= Convert.ToInt32(inPow);
+                result  += Convert.ToInt32(inPow);
+              
             }
             return result;  }
 
@@ -131,5 +134,10 @@ namespace conditionsPractice
         {
             throw new NotImplementedException();
         }
+
+        //Convert.ToInt32(bin_strng, 2)
+    
+    
+    
     }
 }
