@@ -116,10 +116,12 @@ namespace conditionsPractice
         public static int BinaryToDecimal(string binaryNumber)
 
         { int QuantityOfIndexes = binaryNumber.Length;
-            string revBinaryNumber = new string (binaryNumber.Reverse().ToArray());
+            
             int result=0;
             for (int i = QuantityOfIndexes; i >=0; i--) 
-            { double DoubleIndex = Double.Parse(revBinaryNumber.Substring(QuantityOfIndexes - i, 1));
+            {
+                char IndexOfSymbol = binaryNumber[i--];
+                double DoubleIndex = Convert.ToDouble(IndexOfSymbol);
                 double inPow;
                 if (DoubleIndex > 0)
                 { inPow = Math.Pow(2, Convert.ToDouble(QuantityOfIndexes - i)); }
